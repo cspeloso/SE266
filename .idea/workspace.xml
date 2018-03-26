@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2b7cc51-ee10-44a3-842d-b97a88d0eb80" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo2.php" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change beforePath="$PROJECT_DIR$/demo2.php" afterPath="$PROJECT_DIR$/demo2.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="demo2.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state relative-caret-position="153">
+              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -131,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1522073201217</updated>
       <workItem from="1522073202327" duration="413000" />
-      <workItem from="1522074778855" duration="924000" />
+      <workItem from="1522074778855" duration="1141000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1522073361480</created>
@@ -151,7 +150,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1337000" />
+    <option name="totallyTimeSpent" value="1554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
@@ -227,8 +226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding />
         </state>
       </provider>
