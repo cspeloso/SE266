@@ -14,4 +14,5 @@ echo "<h1>$firstName $lastName</h1>";
 
 echo "test";
 
+echo $firstName;
 ?>

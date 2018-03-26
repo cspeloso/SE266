@@ -26,18 +26,8 @@
       <file leaf-file-name="demo2.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="v1" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/v1">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="25" />
+            <state relative-caret-position="272">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -130,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1522073201217</updated>
       <workItem from="1522073202327" duration="413000" />
-      <workItem from="1522074778855" duration="1447000" />
+      <workItem from="1522074778855" duration="1644000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1522073361480</created>
@@ -150,7 +140,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1860000" />
+    <option name="totallyTimeSpent" value="2057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
@@ -226,8 +216,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="272">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
       </provider>
