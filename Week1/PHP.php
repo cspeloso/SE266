@@ -13,7 +13,46 @@
 		$table .= "\t</tr>";
 	}
 	$table .= "</table>\n";
-	echo $table;
+	
+	$colors = array(
+		for($i = 1; i < 100; i++)
+		{
+			$color = "#";
+			array colors(
+				for($i = 1; i <=6; i++)				
+				{
+					$colorPlaceholder = $i;
+					
+					if($colorPlaceholder = 10)
+					{
+						$colorPlaceholder = "A";
+					}
+					if($colorPlaceholder = 11)
+					{
+						$colorPlaceholder = "B";
+					}
+					if($colorPlaceholder = 12)
+					{
+						$colorPlaceholder = "C";
+					}
+					if($colorPlaceholder = 13)
+					{
+						$colorPlaceholder = "D";
+					}
+					if($colorPlaceholder = 14)
+					{
+						$colorPlaceholder = "E";
+					}
+					if($colorPlaceholder = 15)
+					{
+						$colorPlaceholder = "F";
+					}
+					
+					$color .= $colorPlaceHolder;
+				}
+			);
+		}
+	);
 ?>
 
 <!DOCTYPE html>
