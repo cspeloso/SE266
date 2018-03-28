@@ -118,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1522073201217</updated>
       <workItem from="1522073202327" duration="413000" />
-      <workItem from="1522074778855" duration="1737000" />
+      <workItem from="1522074778855" duration="2023000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1522073361480</created>
@@ -138,11 +138,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2150000" />
+    <option name="totallyTimeSpent" value="2436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
