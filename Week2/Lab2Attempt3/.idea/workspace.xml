@@ -10,56 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheet.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="corps.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/corps.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3570">
-              <caret line="215" column="10" lean-forward="false" selection-start-line="215" selection-start-column="10" selection-end-line="215" selection-end-column="10" />
-              <folding>
-                <element signature="n#getRows#0;n#!!top" expanded="false" />
-                <marker date="1523421962833" expanded="true" signature="624:658" ph="SELECT * FRO... corps" />
-                <marker date="1523421962833" expanded="true" signature="2843:2877" ph="SELECT * FRO... corps" />
-                <marker date="1523421962833" expanded="true" signature="4901:5036" ph="UPDATE corps... " />
-                <marker date="1523421962833" expanded="true" signature="5996:6030" ph="SELECT * FRO... corps" />
-                <marker date="1523421962833" expanded="true" signature="7877:7911" ph="SELECT * FRO... corps" />
-                <marker date="1523421962833" expanded="true" signature="8156:8188" ph="DELETE FROM corps... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="corpsTable.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/corpsTable.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,7 +42,7 @@
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -104,21 +55,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Lab2Attempt3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2Attempt3" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -157,15 +94,15 @@
       <workItem from="1523418444928" duration="3764000" />
       <workItem from="1523458612776" duration="141000" />
       <workItem from="1523458940200" duration="106000" />
+      <workItem from="1523459320327" duration="64000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24921000" />
+    <option name="totallyTimeSpent" value="24985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -244,6 +181,48 @@
           <caret line="215" column="10" lean-forward="false" selection-start-line="215" selection-start-column="10" selection-end-line="215" selection-end-column="10" />
           <folding>
             <element signature="n#getRows#0;n#!!top" expanded="false" />
+            <marker date="1523421962833" expanded="true" signature="293:312" ph="SELECT * FRO... corps" />
+            <marker date="1523421962833" expanded="true" signature="624:658" ph="SELECT * FRO... corps" />
+            <marker date="1523421962833" expanded="true" signature="2843:2877" ph="SELECT * FRO... corps" />
+            <marker date="1523421962833" expanded="true" signature="4901:5036" ph="UPDATE corps... " />
+            <marker date="1523421962833" expanded="true" signature="5996:6030" ph="SELECT * FRO... corps" />
+            <marker date="1523421962833" expanded="true" signature="7877:7911" ph="SELECT * FRO... corps" />
+            <marker date="1523421962833" expanded="true" signature="8156:8188" ph="DELETE FROM corps... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corpsTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corps.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3570">
+          <caret line="215" column="10" lean-forward="false" selection-start-line="215" selection-start-column="10" selection-end-line="215" selection-end-column="10" />
+          <folding>
+            <element signature="n#getRows#0;n#!!top" expanded="false" />
+            <marker date="1523421962833" expanded="true" signature="293:312" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="624:658" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="2843:2877" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="4901:5036" ph="UPDATE corps... " />
@@ -276,6 +255,7 @@
           <caret line="215" column="10" lean-forward="false" selection-start-line="215" selection-start-column="10" selection-end-line="215" selection-end-column="10" />
           <folding>
             <element signature="n#getRows#0;n#!!top" expanded="false" />
+            <marker date="1523421962833" expanded="true" signature="293:312" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="624:658" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="2843:2877" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="4901:5036" ph="UPDATE corps... " />
@@ -316,6 +296,7 @@
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="n#getRows#0;n#!!top" expanded="false" />
+            <marker date="1523421962833" expanded="true" signature="293:312" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="624:658" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="2843:2877" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="4901:5036" ph="UPDATE corps... " />
@@ -356,6 +337,7 @@
           <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
           <folding>
             <element signature="n#getRows#0;n#!!top" expanded="false" />
+            <marker date="1523421962833" expanded="true" signature="293:312" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="624:658" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="2843:2877" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="4901:5036" ph="UPDATE corps... " />
@@ -381,9 +363,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
+        <state relative-caret-position="847">
           <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
           <folding />
         </state>
@@ -391,10 +381,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/corps.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
+        <state relative-caret-position="847">
           <caret line="215" column="10" lean-forward="false" selection-start-line="215" selection-start-column="10" selection-end-line="215" selection-end-column="10" />
           <folding>
             <element signature="n#getRows#0;n#!!top" expanded="false" />
+            <marker date="1523421962833" expanded="true" signature="293:312" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="624:658" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="2843:2877" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="4901:5036" ph="UPDATE corps... " />
@@ -402,14 +393,6 @@
             <marker date="1523421962833" expanded="true" signature="7877:7911" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="8156:8188" ph="DELETE FROM corps... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
