@@ -11,21 +11,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+            <state relative-caret-position="603">
+              <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -34,24 +34,15 @@
       <file leaf-file-name="corps.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/corps.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
+            <state relative-caret-position="1428">
               <caret line="215" column="10" lean-forward="false" selection-start-line="215" selection-start-column="10" selection-end-line="215" selection-end-column="10" />
               <folding>
                 <element signature="n#getRows#0;n#!!top" expanded="false" />
-                <element signature="e#4419#4479#0#HTML" expanded="true" />
                 <marker date="1523421962833" expanded="true" signature="293:312" ph="SELECT * FRO... corps" />
                 <marker date="1523421962833" expanded="true" signature="624:658" ph="SELECT * FRO... corps" />
                 <marker date="1523421962833" expanded="true" signature="2843:2877" ph="SELECT * FRO... corps" />
                 <marker date="1523421962833" expanded="true" signature="4901:5036" ph="UPDATE corps... " />
                 <marker date="1523421962833" expanded="true" signature="5996:6030" ph="SELECT * FRO... corps" />
-                <marker date="1523421962833" expanded="true" signature="6501:6599" ph="..." />
-                <marker date="1523421962833" expanded="true" signature="6522:6599" ph="..." />
-                <marker date="1523421962833" expanded="true" signature="6654:6733" ph="..." />
-                <marker date="1523421962833" expanded="true" signature="6790:6857" ph="..." />
-                <marker date="1523421962833" expanded="true" signature="6919:6987" ph="..." />
-                <marker date="1523421962833" expanded="true" signature="7045:7116" ph="..." />
-                <marker date="1523421962833" expanded="true" signature="7176:7244" ph="..." />
-                <marker date="1523421962833" expanded="true" signature="7302:7377" ph="..." />
                 <marker date="1523421962833" expanded="true" signature="7877:7911" ph="SELECT * FRO... corps" />
                 <marker date="1523421962833" expanded="true" signature="8156:8188" ph="DELETE FROM corps... " />
               </folding>
@@ -62,8 +53,8 @@
       <file leaf-file-name="corpsTable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/corpsTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="289">
+              <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -82,10 +73,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/database.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/corpsTable.php" />
         <option value="$PROJECT_DIR$/corps.php" />
         <option value="$PROJECT_DIR$/stylesheet.css" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -97,9 +88,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="976" />
-    <option name="height" value="1038" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -166,14 +156,15 @@
       <workItem from="1523315684637" duration="6109000" />
       <workItem from="1523403508598" duration="14801000" />
       <workItem from="1523418444928" duration="3764000" />
+      <workItem from="1523458612776" duration="141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24674000" />
+    <option name="totallyTimeSpent" value="24815000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="0" width="976" height="1038" extended-state="0" />
+    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -233,6 +224,47 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corps.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3570">
+          <caret line="215" column="10" lean-forward="false" selection-start-line="215" selection-start-column="10" selection-end-line="215" selection-end-column="10" />
+          <folding>
+            <element signature="n#getRows#0;n#!!top" expanded="false" />
+            <marker date="1523421962833" expanded="true" signature="293:312" ph="SELECT * FRO... corps" />
+            <marker date="1523421962833" expanded="true" signature="624:658" ph="SELECT * FRO... corps" />
+            <marker date="1523421962833" expanded="true" signature="2843:2877" ph="SELECT * FRO... corps" />
+            <marker date="1523421962833" expanded="true" signature="4901:5036" ph="UPDATE corps... " />
+            <marker date="1523421962833" expanded="true" signature="5996:6030" ph="SELECT * FRO... corps" />
+            <marker date="1523421962833" expanded="true" signature="7877:7911" ph="SELECT * FRO... corps" />
+            <marker date="1523421962833" expanded="true" signature="8156:8188" ph="DELETE FROM corps... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corpsTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -245,20 +277,11 @@
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="n#getRows#0;n#!!top" expanded="false" />
-            <element signature="e#4419#4479#0#HTML" expanded="true" />
             <marker date="1523421962833" expanded="true" signature="293:312" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="624:658" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="2843:2877" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="4901:5036" ph="UPDATE corps... " />
             <marker date="1523421962833" expanded="true" signature="5996:6030" ph="SELECT * FRO... corps" />
-            <marker date="1523421962833" expanded="true" signature="6501:6599" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="6522:6599" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="6654:6733" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="6790:6857" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="6919:6987" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="7045:7116" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="7176:7244" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="7302:7377" ph="..." />
             <marker date="1523421962833" expanded="true" signature="7877:7911" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="8156:8188" ph="DELETE FROM corps... " />
           </folding>
@@ -295,20 +318,11 @@
           <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
           <folding>
             <element signature="n#getRows#0;n#!!top" expanded="false" />
-            <element signature="e#4419#4479#0#HTML" expanded="true" />
             <marker date="1523421962833" expanded="true" signature="293:312" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="624:658" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="2843:2877" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="4901:5036" ph="UPDATE corps... " />
             <marker date="1523421962833" expanded="true" signature="5996:6030" ph="SELECT * FRO... corps" />
-            <marker date="1523421962833" expanded="true" signature="6501:6599" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="6522:6599" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="6654:6733" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="6790:6857" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="6919:6987" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="7045:7116" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="7176:7244" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="7302:7377" ph="..." />
             <marker date="1523421962833" expanded="true" signature="7877:7911" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="8156:8188" ph="DELETE FROM corps... " />
           </folding>
@@ -322,52 +336,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/corpsTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        <state relative-caret-position="289">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/corpsTable.php">
+    <entry file="file://$PROJECT_DIR$/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="603">
+          <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/corps.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
+        <state relative-caret-position="1428">
           <caret line="215" column="10" lean-forward="false" selection-start-line="215" selection-start-column="10" selection-end-line="215" selection-end-column="10" />
           <folding>
             <element signature="n#getRows#0;n#!!top" expanded="false" />
-            <element signature="e#4419#4479#0#HTML" expanded="true" />
             <marker date="1523421962833" expanded="true" signature="293:312" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="624:658" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="2843:2877" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="4901:5036" ph="UPDATE corps... " />
             <marker date="1523421962833" expanded="true" signature="5996:6030" ph="SELECT * FRO... corps" />
-            <marker date="1523421962833" expanded="true" signature="6501:6599" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="6522:6599" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="6654:6733" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="6790:6857" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="6919:6987" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="7045:7116" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="7176:7244" ph="..." />
-            <marker date="1523421962833" expanded="true" signature="7302:7377" ph="..." />
             <marker date="1523421962833" expanded="true" signature="7877:7911" ph="SELECT * FRO... corps" />
             <marker date="1523421962833" expanded="true" signature="8156:8188" ph="DELETE FROM corps... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
         </state>
       </provider>

@@ -14,7 +14,14 @@
     $action = ( array_key_exists( 'action', $_REQUEST) ? $_REQUEST['action'] : "");
 
     //initliazes session variable 'idS'
-    $_SESSION['idS'];
+    if($_SESSION['idS'] != NULL)
+    {
+        $_SESSION['idS'];
+    }
+    else
+    {
+        $_SESSION['idS'] = 0;
+    }
 
     $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_STRING) ?? "";
     $corp = filter_input(INPUT_POST, 'corp', FILTER_SANITIZE_STRING) ?? "";
