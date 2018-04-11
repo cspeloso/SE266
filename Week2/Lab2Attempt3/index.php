@@ -14,7 +14,7 @@
     $action = ( array_key_exists( 'action', $_REQUEST) ? $_REQUEST['action'] : "");
 
     //initliazes session variable 'idS'
-    if($_SESSION['idS'] != NULL)
+    if(isset($_SESSION['idS']))
     {
         $_SESSION['idS'];
     }
