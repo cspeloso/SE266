@@ -1,0 +1,170 @@
+body{
+    font-family:arial;
+}
+
+table{
+    background-color:black;
+    font-family:arial;
+    width:75%;
+    margin:0 auto;
+    position:absolute;
+    top:10%;
+    left:10%;
+}
+
+#readLinks{
+    display:inline-block;
+    position:absolute;
+    top:55%;
+    left:40%;
+}
+
+#links{
+    padding:10px;
+    background-color:blue;
+}
+
+#updateForm{
+    border:5px solid black;
+    background-color:gray;
+    display:inline-block;
+    position:absolute;
+    padding:20px;
+    top:10%;
+    left:30%;
+}
+
+#updateButtons{
+    border:5px solid black;
+    background-color:gray;
+    display:inline-block;
+    padding:10px;
+    position:absolute;
+    left:30%;
+    top:110%;
+}
+
+#tableReplace{
+    background-color:blue;
+    padding:10px;
+    display:inline-block;
+    position:absolute;
+    top:52%;
+    left:45%;
+}
+
+#h1replace{
+    position:absolute;
+    display:inline-block;
+    width:800px;
+    left:15%;
+}
+
+#h1delete{
+
+}
+
+#deleteButton{
+    background-color:blue;
+    padding:10px;
+    left:50%;
+    top:15%;
+}
+
+tr{
+    background-color:gray;
+}
+
+td{
+    padding:10px;
+    border:1px solid black;
+}
+
+th{
+    border:1px solid black;
+}
+
+a:link{
+    text-decoration:none;
+    font-family:arial;
+    color:aqua;
+}
+
+a:visited{
+    color:aqua;
+}
+
+a:hover{
+    color:red;
+}
+
+#corpNameTD{
+    font-family:"Comic Sans MS";
+}
+
+#addButtons {
+    border:5px solid black;
+    background-color:gray;
+    display:inline-block;
+    position:relative;
+    padding:10px;
+    top:110px;
+}
+
+#addForm{
+    display:inline-block;
+    border:5px solid black;
+    position:absolute;
+    left:35%;
+    padding:15px;
+    background-color:gray;
+}
+
+#add2Button{
+    background:none;
+    border:none;
+    background-color:blue;
+    color:aqua;
+    padding:5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+#add2Button:hover{
+    color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
