@@ -2,7 +2,6 @@
     //initliazes these pages
     require_once("database.php");
     require_once("corps.php");
-    require_once("search.php");
 
     //checks to see if a session has already been started
     if(!isset($_SESSION))
