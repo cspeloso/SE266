@@ -227,7 +227,7 @@
         <div id="AddForm">
         <form method="post" action="index.php">
             <center>
-            <b>Corporation Name </b> <input type="text" name="corp" id="corp" placeholder="corporation name" title="enter a name" required pattern="[A-z,0-9]{3,}" value="" />
+            <b>Corporation Name </b> <input type="text" name="corp" id="corp" placeholder="corporation name" title="enter a name" required pattern="[A-z,0-9,\s]{3,}" value="" />
             <br><br>
 
             <b>Email </b> <input type="text" name="email" id="email" placeholder="corpname@example.com" title="XX@XX.XX" required pattern="[A-z,0-9]{2,}@[A-z,0-9]{2,}.[A-z]{2,}" value="" />
@@ -300,11 +300,23 @@
     function corpSearch($db,$search,$term){
         ?>
         <?php
-        $sql = $db->prepare("SELECT * FROM corps WHERE $search LIKE '%{$term}%' ");
-        $sql->bindParam(':term',$term,PDO::PARAM_STR);
-        $sql->execute();
-        $results = $sql->fetchAll(PDO::FETCH_ASSOC);
-        return $results;
+        
+        if($search == "id")
+        {
+            $sql = $db->prepare("SELECT * FROM corps WHERE id = $term");
+            $sql->bindValue(':id',$term,PDO::PARAM_INT);
+            $sql->execute();
+            $results = $sql->fetchAll(PDO::FETCH_ASSOC);
+            return $results;
+        }
+
+        else {
+            $sql = $db->prepare("SELECT * FROM corps WHERE $search LIKE '%{$term}%' ");
+            $sql->bindParam(':term', $term, PDO::PARAM_STR);
+            $sql->execute();
+            $results = $sql->fetchAll(PDO::FETCH_ASSOC);
+            return $results;
+        }
     }
 ?>
 
