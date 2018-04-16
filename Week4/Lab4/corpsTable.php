@@ -76,7 +76,7 @@
 
     else
     {
-        echo count($corp) . " rows";
+        echo "<br><b>" . count($corp) . " rows</b>";
 
         //foreach loop to print out every row of the database
         foreach($corp as $corporation) {
@@ -100,15 +100,19 @@
             </tr>
 
             <?php
-        }}
-        
+        }
+        ?>
+        <br>
+        <a id="searchSortBackBtn" href="index.php">Back</a>
+        <?php
+    }
+
     ?>
-        <br />
 
 
-        <center>
-            <a id="addNewCorp" href="?action=Add2">Add New Corporation</a>
-        </center>
+        <a id="addNewCorp" href="?action=Add2">Add New Corporation</a>
+
+
 
         <!--ends the table-->
     </table>

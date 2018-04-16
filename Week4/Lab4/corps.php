@@ -290,7 +290,6 @@
 
     function corpSort($db,$sort,$dir){
         ?>
-        <a id="searchSortBackBtn" href="index.php">Back</a>
         <?php
         $sql = $db->prepare("SELECT * FROM corps ORDER BY $sort $dir");
         $sql->execute();
@@ -300,7 +299,6 @@
 
     function corpSearch($db,$search,$term){
         ?>
-        <a id="searchSortBackBtn" href="index.php">Back</a>
         <?php
         $sql = $db->prepare("SELECT * FROM corps WHERE $search LIKE '%{$term}%' ");
         $sql->bindParam(':term',$term,PDO::PARAM_STR);
