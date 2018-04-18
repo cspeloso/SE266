@@ -8,7 +8,8 @@
 
     //calls every row from the database, and returns it to wherever it was called from
     function getRows($db){
-        $stmt = $db->prepare("SELECT * FROM corps");
+        $stmt = "SELECT * FROM corps";
+        $stmt = $db->prepare($stmt);
         $stmt->execute();
         $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
         return $results;
@@ -16,8 +17,9 @@
 
     //pulls info from the database from whatever ID is sent in
     function corpRead($db,$id){
+        $sql = "SELECT * FROM corps WHERE id = :id";
         //creates SQL statement pulling a specific row according to ID#
-        $sql = $db->prepare("SELECT * FROM corps WHERE id = :id");
+        $sql = $db->prepare($sql);
         //sets the :id = to the ID variable
         $sql->bindParam(':id',$id,PDO::PARAM_INT);
         //executes the statement
@@ -72,7 +74,8 @@
 
         //pulls in information from the row specified by the id.
         //does the same thing as the read statement here...
-        $sql = $db->prepare("SELECT * FROM corps WHERE id = :id");
+        $sql = "SELECT * FROM corps WHERE id = :id";
+        $sql = $db->prepare($sql);
         $sql->bindParam(':id', $id, PDO::PARAM_INT);
         $sql->execute();
         $results = $sql->fetch(PDO::FETCH_ASSOC);
@@ -121,9 +124,10 @@
     //part 2/2 functions to update rows in the database
     function corpReplace($db,$id,$corp,$incorp_dt,$email,$zipcode,$owner,$phone)
     {
+        $sql = "UPDATE corps SET corp = :corp, incorp_dt = :incorp_dt,email = :email, zipcode = :zipcode, owner = :owner, phone = :phone WHERE id = :id";
         //the actual command to update the row in the database chosen.
         //updates each different attribute where the id is = to $id
-        $sql = $db->prepare("UPDATE corps SET corp = :corp, incorp_dt = :incorp_dt,email = :email, zipcode = :zipcode, owner = :owner, phone = :phone WHERE id = :id");
+        $sql = $db->prepare($sql);
 
         //binds the :id to the session variable idS, used in place of
         //$id because ID was not sent with the form because it was
@@ -132,7 +136,7 @@
         $sql->bindParam(':corp', $corp, PDO::PARAM_STR);
         $sql->bindParam(':incorp_dt', $incorp_dt, PDO::PARAM_STR);
         $sql->bindParam(':email', $email, PDO::PARAM_STR);
-        $sql->bindParam(':zipcode', $zipcode, PDO::PARAM_INT);
+        $sql->bindParam(':zipcode', $zipcode, PDO::PARAM_STR);
         $sql->bindParam(':owner', $owner, PDO::PARAM_STR);
         $sql->bindParam(':phone', $phone, PDO::PARAM_STR);
 
@@ -201,7 +205,8 @@
         //pulls in row where id = $id. does this so it can tell
         //you which row was deleted, could also implement a way for
         //user to reverse changes (put the row back into the database..)
-        $sql = $db->prepare("SELECT * FROM corps WHERE id = :id");
+        $sql = "SELECT * FROM corps WHERE id = :id";
+        $sql = $db->prepare($sql);
         $sql->bindParam(':id',$id,PDO::PARAM_INT);
         $sql->execute();
         $results = $sql->fetch(PDO::FETCH_ASSOC);
@@ -269,7 +274,8 @@
 
     function corpAdd($db,$corp,$email,$zipcode,$owner,$phone){
         try {
-            $sql = $db->prepare("INSERT INTO corps VALUES (null,:corp,NOW(),:email,:zipcode,:owner,:phone)");
+            $sql = "INSERT INTO corps VALUES (null,:corp,NOW(),:email,:zipcode,:owner,:phone)";
+            $sql = $db->prepare($sql);
             $sql->bindParam(':corp', $corp);
             $sql->bindParam(':email', $email);
             $sql->bindParam(':zipcode', $zipcode);
@@ -291,7 +297,8 @@
     function corpSort($db,$sort,$dir){
         ?>
         <?php
-        $sql = $db->prepare("SELECT * FROM corps ORDER BY $sort $dir");
+        $sql = "SELECT * FROM corps ORDER BY $sort $dir";
+        $sql = $db->prepare($sql);
         $sql->execute();
         $results = $sql->fetchAll(PDO::FETCH_ASSOC);
         return $results;
@@ -300,10 +307,11 @@
     function corpSearch($db,$search,$term){
         ?>
         <?php
-        
+
         if($search == "id")
         {
-            $sql = $db->prepare("SELECT * FROM corps WHERE id = $term");
+            $sql = "SELECT * FROM corps WHERE id = $term";
+            $sql = $db->prepare($sql);
             $sql->bindValue(':id',$term,PDO::PARAM_INT);
             $sql->execute();
             $results = $sql->fetchAll(PDO::FETCH_ASSOC);
@@ -311,7 +319,8 @@
         }
 
         else {
-            $sql = $db->prepare("SELECT * FROM corps WHERE $search LIKE '%{$term}%' ");
+            $sql = "SELECT * FROM corps WHERE $search LIKE '%{$term}%'";
+            $sql = $db->prepare($sql);
             $sql->bindParam(':term', $term, PDO::PARAM_STR);
             $sql->execute();
             $results = $sql->fetchAll(PDO::FETCH_ASSOC);

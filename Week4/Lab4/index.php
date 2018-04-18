@@ -44,7 +44,6 @@
     {
         //sets cases for read, update, replace, and delete.
         case "Read":
-            echo "reading";
             corpRead($db,$id);
             break;
 
