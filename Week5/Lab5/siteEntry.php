@@ -8,7 +8,6 @@
     else{
         echo "";
     } ?>">
-    <input type="text" name="searchTerm" id="searchTerm" value="">
 
 
     <input type="submit" name="action" value="SiteSearch">

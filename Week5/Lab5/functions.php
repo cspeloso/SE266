@@ -1,7 +1,7 @@
 <?php
-    function siteSearchFunc($db,$searchVar,$searchTerm){
+    function siteSearchFunc($db,$searchVar){
         $_SESSION['searchVar'] = $searchVar;
-        $searchTerm = "/(https?:\/\/[\da-z\.-]+\.[a-z\.]{2,6}[\/\w \.-]+" . $searchTerm . ")/";
+        $searchTerm = "/(https?:\/\/[\da-z\.-]+\.[a-z\.]{2,6}[\/\w \.-]+)/";
 
         $sql = "SELECT * FROM sites";
         $sql = $db->prepare($sql);

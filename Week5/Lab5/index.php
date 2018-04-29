@@ -28,7 +28,7 @@
     {
         case "SiteSearch":
             $_SESSION['searchVar'] = $searchVar;
-            siteSearchFunc($db,$searchVar,$searchTerm);
+            siteSearchFunc($db,$searchVar);
             break;
     }
 
