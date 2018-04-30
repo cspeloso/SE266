@@ -1,6 +1,14 @@
 <?php
     session_start();
 
+    if(isset($_SESSION['searchVar']))
+    {
+
+    }
+    else{
+        $_SESSION['searchVar'] = "";
+    }
+
     if(isset($searchVar)) {
         if ($searchVar != null) {
             $_SESSION['searchVar'] = $searchVar;
