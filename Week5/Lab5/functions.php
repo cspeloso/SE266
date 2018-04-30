@@ -14,8 +14,12 @@
 
         $boolVar = true;
 
-        while ($count <= ($resultsSize)){
-                if ($searchVar == $results[$count]["site"]) {
+        if($searchVar == ""){
+            $searchVar = "http://www.google.com";
+        }
+
+        while ($count < ($resultsSize)){
+                if($searchVar == $results[$count]['site']) {
                     $count = $resultsSize;
                     $boolVar = false;
                 }
@@ -26,13 +30,16 @@
 
             $sql = "INSERT INTO sites VALUES (null,:site,NOW())";
             $sql = $db->prepare($sql);
-            $sql->bindParam(':site',$searchVar);
+            $sql->bindParam(':site', $searchVar);
             $sql->execute();
             $_SESSION["siteID"] = $db->lastInsertID();
 
             $file = file_get_contents($searchVar);
             echo preg_match_all($searchTerm, $file, $matches, PREG_OFFSET_CAPTURE);
-            echo "<br><br>";
+            ?>
+                 links added
+                <br><br>
+            <?php
 
             $newMatches = array_unique($matches, SORT_REGULAR);
 
@@ -48,8 +55,6 @@
                     $sql->execute();
                     echo "<br>";
                 }
-
-
             }
         }
         else{

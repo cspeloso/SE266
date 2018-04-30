@@ -18,4 +18,16 @@ switch($action)
             break;
     }
 
+    include_once("footer.php");
 ?>
+
+<!DOCTYPE HTML>
+<HTML>
+<head>
+    <!---loads up css page-->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+
+</body>
+</HTML>

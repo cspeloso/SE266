@@ -17,7 +17,7 @@
         <?php
             foreach($results as $result) {
                 ?>
-                <option value="<?php print_r($result['site_id']); ?>"><?php print_r($result['site']); ?></option>
+                <option id="listoption" value="<?php print_r($result['site_id']); ?>"><?php print_r($result['site']); ?></option>
                 <?php
             }
             ?>
