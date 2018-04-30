@@ -6,18 +6,20 @@
 ?>
 <form action="sitelist.php" method="get">
     <?php
-    /*foreach($results as $result)
-    {
-        print_r($result['site']);
-        echo "<br>";
-    }*/
+    if(!isset($_GET['siteSelectList'])){
+        $_GET['siteSelectList'] = 0;
+    }
     ?>
     <select name="siteSelectList">
         <option selected="selected">Choose an option</option>
         <?php
             foreach($results as $result) {
                 ?>
-                <option id="listoption" value="<?php print_r($result['site_id']); ?>"><?php print_r($result['site']); ?></option>
+                <option id="listoption" <?php
+                    if($_GET['siteSelectList'] == $result['site_id']){
+                        echo 'selected="true"';
+                    }
+                ?> value="<?php print_r($result['site_id']); ?>"><?php print_r($result['site']); ?></option>
                 <?php
             }
             ?>

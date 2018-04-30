@@ -37,7 +37,7 @@
             $file = file_get_contents($searchVar);
             echo preg_match_all($searchTerm, $file, $matches, PREG_OFFSET_CAPTURE);
             ?>
-                 links added
+                 links added successfully
                 <br><br>
             <?php
 
@@ -77,6 +77,9 @@
         $siteName = $sql->fetchAll(PDO::FETCH_ASSOC);
         ?>
         <h1><?php echo $siteName[0]['site'] ?> - links</h1>
+        <h2>retrieved <?php echo date("m-d-Y") ?></h2>
+
+
         <?php
         foreach($results as $result)
         {
