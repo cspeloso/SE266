@@ -242,6 +242,11 @@
 
     function orderSubmitFunc($db,$shippingVar,$taxVar)
     {
+        if(!isset($_SESSION["loggedIn"]))
+        {
+            $_SESSION["loggedIn"] = false;
+        }
+
         if($_SESSION["loggedIn"] == true) {
             $sql = "SELECT * FROM users WHERE email = :email";
             $sql = $db->prepare($sql);
