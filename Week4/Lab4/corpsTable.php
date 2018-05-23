@@ -48,11 +48,10 @@
 
         <?php
 
-    if(($action != "Sort") && ($action != "Search"))
-    {
-    //foreach loop to print out every row of the database
-    foreach($corp as $corporation) {
-        ?>
+    if(($action != "Sort") && ($action != "Search")) {
+        //foreach loop to print out every row of the database
+        foreach ($corp as $corporation) {
+            ?>
 
 
             <!--continues with making the table...-->
@@ -71,8 +70,9 @@
                 <td><a href="?action=Delete&id=<?php echo $corporation['id'] ?>">Delete</a></td>
             </tr>
 
-        <?php
-    }}
+            <?php
+        }
+    }
 
     else
     {
