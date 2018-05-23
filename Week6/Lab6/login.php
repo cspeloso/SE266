@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
 <?php
     if(session_status() == PHP_SESSION_NONE){
         session_start();
@@ -29,17 +31,3 @@
     include_once("register.php");
 
 ?>
-
-<!---placed here so i could include the css style sheet-->
-<!DOCTYPE HTML>
-<HTML>
-<head>
-    <!---loads up css page-->
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-
-</body>
-</HTML>
-
-

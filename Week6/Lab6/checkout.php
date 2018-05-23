@@ -1,7 +1,6 @@
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
 <?php
-
     include_once("header.php");
     include_once("db.php");
     include_once("functions.php");

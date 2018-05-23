@@ -78,6 +78,7 @@
             ?>
             <br><br>
             <a href="index.php" id="continueLoginButton">Continue</a>
+            <br><br>
             <?php
         }
 
@@ -241,45 +242,53 @@
 
     function orderSubmitFunc($db,$shippingVar,$taxVar)
     {
-        $sql = "SELECT * FROM users WHERE email = :email";
-        $sql = $db->prepare($sql);
-        $sql->bindParam(':email',$_SESSION["loggedInUsername"]);
-        $sql->execute();
-        $resultsUsers = $sql->fetch(PDO::FETCH_ASSOC);
-
-        try {
-            $sql = "INSERT INTO orders VALUES(null,:userID,:dateN,:shipping,:taxes,:total)";
-            $dateN = date("Y/m/d");
+        if($_SESSION["loggedIn"] == true) {
+            $sql = "SELECT * FROM users WHERE email = :email";
             $sql = $db->prepare($sql);
-            $sql->bindParam(':userID', $resultsUsers["user_id"]);
-            $sql->bindParam(':dateN', $dateN);
-            $sql->bindParam(':shipping', $shippingVar);
-            $sql->bindParam(':taxes', $taxVar);
-            $sql->bindParam(':total', $_SESSION["total"]);
+            $sql->bindParam(':email', $_SESSION["loggedInUsername"]);
             $sql->execute();
+            $resultsUsers = $sql->fetch(PDO::FETCH_ASSOC);
 
-            $lastInsertVar = $db->lastInsertId();
+            try {
+                $sql = "INSERT INTO orders VALUES(null,:userID,:dateN,:shipping,:taxes,:total)";
+                $dateN = date("Y/m/d");
+                $sql = $db->prepare($sql);
+                $sql->bindParam(':userID', $resultsUsers["user_id"]);
+                $sql->bindParam(':dateN', $dateN);
+                $sql->bindParam(':shipping', $shippingVar);
+                $sql->bindParam(':taxes', $taxVar);
+                $sql->bindParam(':total', $_SESSION["total"]);
+                $sql->execute();
 
-            ?>
+                $lastInsertVar = $db->lastInsertId();
+
+                ?>
 
                 <p>Order Placed!</p>
                 <br>
                 <p>Order #: <?php echo $lastInsertVar ?></p>
 
-            <?php
+                <?php
 
-            foreach($_SESSION["cart"] as $items) {
-                $sql = "INSERT INTO orderItems VALUES(:order_id,NULL,:product_id,:quantity,:price)";
-                $sql = $db->prepare($sql);
-                $sql->bindParam(':order_id',$lastInsertVar);
-                $sql->bindParam(':product_id', $items['product_id']);
-                $sql->bindParam(':quantity',$items['quantity']);
-                $sql->bindParam(':price',$items['price']);
-                $sql->execute();
+                foreach ($_SESSION["cart"] as $items) {
+                    $sql = "INSERT INTO orderItems VALUES(:order_id,NULL,:product_id,:quantity,:price)";
+                    $sql = $db->prepare($sql);
+                    $sql->bindParam(':order_id', $lastInsertVar);
+                    $sql->bindParam(':product_id', $items['product_id']);
+                    $sql->bindParam(':quantity', $items['quantity']);
+                    $sql->bindParam(':price', $items['price']);
+                    $sql->execute();
+                }
+            } catch (PDOException $e) {
+                die("INSERTION FAILED");
             }
         }
-        catch(PDOException $e){
-            die("INSERTION FAILED");
+        if($_SESSION["loggedIn"] == false)
+        {
+            ?>
+                <p>You must be logged in to make an order!</p>
+                <a href="login.php">Click Here To Login</a>
+            <?php
         }
     }
 
