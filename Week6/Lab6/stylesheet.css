@@ -1,0 +1,122 @@
+body{
+    background-color:grey;
+    font-family:arial;
+}
+
+a:link{
+    text-decoration:none;
+    border:1px solid white;
+    padding:10px;
+    font-family:arial;
+    background-color:black;
+    color:white;
+}
+
+a:visited{
+    color:white;
+}
+
+a:hover{
+    color:gray;
+}
+
+#categorySelectList {
+    color:blue;
+}
+
+#productsTable{
+    border:1px solid black;
+}
+
+#productsTableHEAD{
+    border:1px solid black;
+    background-color:white;
+    padding:10px;
+}
+
+#productsTableCOL{
+    border:1px solid black;
+    background-color:white;
+    padding:10px;
+    text-align:center;
+}
+
+#ordersTable{
+    /*border:1px solid black;*/
+}
+
+#ordersTableHEAD{
+    border:1px solid black;
+    background-color:white;
+    padding:10px;
+}
+
+#ordersTableCOL{
+    text-align:center;
+    border:1px solid black;
+    background-color:white;
+    padding:10px;
+}
+
+#orderItemsTable{
+    /*border:1px solid black;*/
+}
+
+#orderItemsTableHEAD{
+     border:1px solid black;
+    background-color:white;
+    padding:10px;
+ }
+
+#orderItemsTableCOL{
+    border:1px solid black;
+    text-align:center;
+    background-color:white;
+}
+
+#cartTable{
+
+}
+
+#cartTableHEAD{
+    border:1px solid black;
+    text-align:center;
+    background-color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
