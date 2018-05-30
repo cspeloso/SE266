@@ -1,0 +1,59 @@
+<!--Chris Peloso, May 30th 2018-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mailing List</title>
+    <!--added so the file can access the css file-->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<div>
+    <h1>Account Sign Up</h1>
+    <form action="display_results.php" method="post">
+
+        <fieldset>
+            <legend>Account Information</legend>
+            <label>E-Mail:</label>
+            <input type="text" name="email" value="" class="textbox" pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}" title="example@email.com" placeholder="email" required />
+            <br />
+
+            <label>Phone Number:</label>
+            <input type="text" name="phone" value=""  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="123-456-7890" placeholder="phone number" class="textbox" required />
+        </fieldset>
+
+        <fieldset>
+            <legend>Settings</legend>
+
+            <p>How did you hear about us?</p>
+            <input type="radio" name="heard_from" value="Search Engine" required />
+            Search engine<br />
+            <input type="radio" name="heard_from" value="Friend" required  />
+            Word of mouth<br />
+            <input type=radio name="heard_from" value="Other" required  />
+            Other<br />
+
+            <p>Contact via:</p>
+            <select name="contact_via">
+                <option value="email">Email</option>
+                <option value="text">Text Message</option>
+                <option value="phone">Phone</option>
+            </select>
+
+            <p>Comments: (optional)</p>
+            <textarea name="comments" rows="4" cols="50"></textarea>
+        </fieldset>
+
+        <input type="submit" name="action" value="Submit" />
+
+        <hr>
+        <br>
+
+        <!--adds an option to view the database's entries-->
+        <a href="display_table.php">View Database</a>
+
+    </form>
+    <br />
+</div>
+</body>
+</html>
